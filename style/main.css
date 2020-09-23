@@ -1,0 +1,59 @@
+.aside-menu {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  border-right: 1px solid grey;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.navigation .icon-twitter {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.navigation .navigation-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navigation .navigation-list li {
+  color: white;
+  padding-bottom: 1.3em;
+  font-size: 1.2em;
+}
+.navigation .navigation-list li i {
+  padding-right: 20px;
+}
+.navigation .navigation-list li:nth-child(5) i {
+  padding-right: 24px;
+}
+.navigation .navigation-list li:nth-child(7) i {
+  padding-right: 24px;
+}
+.navigation .navigation-list li:nth-child(8) i {
+  padding-right: 24px;
+}
+.navigation .btn-tweetar {
+  background: #1da1f2;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #15202b;
+}
+
+/*# sourceMappingURL=main.css.map */
