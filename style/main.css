@@ -6,6 +6,7 @@
 }
 @media screen and (max-width: 1279px) {
   .aside-menu {
+    transition: all 0.4s;
     width: 10%;
   }
 }

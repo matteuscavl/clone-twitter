@@ -7,18 +7,16 @@
     border-right: 1px solid grey;
 
     @media screen and (max-width: 1279px) {
+        transition: all .4s;
         width: 10%;
     }
 }
 
 .navigation {
     display: flex;
-    // justify-content: space-around;
-    // text-align: center;
     flex-direction: column;
     padding-left: 50px;
     padding-top: 20px;
-    // align-items: center;
 
     .icon-twitter {
         color: white;
@@ -84,7 +82,7 @@
         }
 
         .btn-tweetar .tela-mobile {
-            display: block
+            display: block;
         }
 
         .btn-tweetar .tela-pc {
