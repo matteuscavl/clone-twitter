@@ -5,6 +5,10 @@
     height: 100vh;
     display: flex;
     border-right: 1px solid grey;
+
+    @media screen and (max-width: 1279px) {
+        width: 10%;
+    }
 }
 
 .navigation {
@@ -30,8 +34,14 @@
 
     .navigation-list li {
         color: white;
-        padding-bottom: 1.3em;
+        margin-bottom: 1.3em;
         font-size: 1.2em;
+        cursor: pointer;
+    }
+
+    .navigation-list li:hover {
+        color: 	#00BFFF;
+        transition: 0.7s;
     }
 
     .navigation-list li i {
@@ -57,5 +67,28 @@
         color: white;
         text-decoration: none;
         text-align: center;
+    }
+
+    .btn-tweetar .tela-mobile {
+        display: none;
+    }
+
+    @media screen and (max-width: 1279px) {
+        .mobile-span {
+            display: none;
+        }
+
+        .btn-tweetar {
+            border-radius: 50px;
+            padding: 10px;
+        }
+
+        .btn-tweetar .tela-mobile {
+            display: block
+        }
+
+        .btn-tweetar .tela-pc {
+            display: none;
+        }
     }
 }
