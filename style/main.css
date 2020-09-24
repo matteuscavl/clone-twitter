@@ -95,6 +95,13 @@ html {
   justify-content: space-between;
 }
 
+.foto-tweet {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
 .aside-menu-right {
   width: 40%;
   height: 100vh;
@@ -186,6 +193,7 @@ html {
   align-items: center;
   padding-bottom: 1em;
   border-bottom: 3px solid grey;
+  width: 100%;
 }
 .escrever-tweet .foto-user {
   margin-left: 1em;
@@ -239,6 +247,44 @@ html {
   outline: 0;
   cursor: pointer;
   margin-right: 10px;
+}
+
+.div-tweet {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 3px solid grey;
+}
+.div-tweet .div-postagem {
+  margin-left: 1em;
+  margin-top: 1em;
+  color: white;
+}
+.div-tweet p:nth-child(1) {
+  font-weight: bold;
+}
+.div-tweet p:nth-child(2) {
+  margin-left: 1em;
+  color: grey;
+}
+.div-tweet .info-post {
+  display: flex;
+}
+.div-tweet .postagem {
+  margin-top: 6px;
+}
+.div-tweet .select-post {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.div-tweet .select-post i:hover {
+  transition: 0.3s;
+  color: #1da1f2;
+}
+
+.div-tweet:hover {
+  transition: 1s;
+  background: rgba(220, 220, 220, 0.1);
 }
 
 /*# sourceMappingURL=main.css.map */

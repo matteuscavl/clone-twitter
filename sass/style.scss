@@ -29,6 +29,7 @@
     align-items: center;
     padding-bottom: 1em;
     border-bottom: 3px solid grey;
+    width: 100%;
 
     .foto-user {
         margin-left: 1em;
@@ -91,4 +92,49 @@
         cursor: pointer;
         margin-right: 10px;
     }
+}
+
+.div-tweet {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 3px solid grey;
+
+    .div-postagem {
+        margin-left: 1em;
+        margin-top: 1em;
+        color: white;
+    }
+
+    p:nth-child(1) {
+        font-weight: bold;
+    }
+
+    p:nth-child(2) {
+        margin-left: 1em;
+        color: grey;
+    }
+
+    .info-post {
+        display: flex;
+    }
+
+    .postagem {
+        margin-top: 6px;
+    }
+
+    .select-post {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .select-post i:hover {
+        transition: .3s;
+        color: $background-buttom;
+    }
+}
+
+.div-tweet:hover {
+    transition: 1s;
+    background: rgba(220,220,220, .1)
 }
