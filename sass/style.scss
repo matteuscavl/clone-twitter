@@ -5,10 +5,10 @@
 @import './menu-bottom.scss';
 
 .main-container {
-    width: 60%;
+    width: auto;
 
     @media screen and (max-width: 1038px) {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -46,6 +46,8 @@
 }
 
 .tweetar {
+    width: 100%;
+    
     .input-tweetar {
         outline: 0;
         background: transparent;

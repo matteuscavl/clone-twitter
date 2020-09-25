@@ -33,7 +33,6 @@ const renderDivPostagem = () => {
 
     divPostagem.append(renderInfoPost());
     divPostagem.append(renderPostagem())
-    // divPostagem.append(selectPost());
     return divPostagem;
 }
 
@@ -65,20 +64,3 @@ const renderPostagem = () => {
     divPost.append(twitterPost)
     return divPost;
 }
-
-// const selectPost = () => {
-//     let divSelectPost = $('<div>');
-//     divSelectPost.addClass('select-post')
-//     let item1 = $('i')
-//     let item2 = $('i')
-//     let item3 = $('i')
-//     let item4 = $('i')
-
-//     item1.addClass('far fa-comment');
-//     item2.addClass('fas fa-retweet');
-//     item3.addClass('far fa-heart');
-//     item4.addClass('fas fa-upload');
-
-//     divSelectPost.append(item1, item2, item3, item4);
-//     return divSelectPost
-// }
