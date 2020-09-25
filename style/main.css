@@ -10,6 +10,11 @@
     width: 10%;
   }
 }
+@media screen and (max-width: 650px) {
+  .aside-menu {
+    display: none;
+  }
+}
 
 .navigation {
   display: flex;
@@ -62,8 +67,8 @@
 }
 @media screen and (max-width: 1279px) {
   .navigation {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   .navigation .mobile-span {
     display: none;
@@ -167,6 +172,30 @@ html {
   cursor: pointer;
 }
 
+.menu-bottom {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .menu-bottom {
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    border-top: 1px solid grey;
+    margin-top: 3em;
+  }
+}
+
+.menu-list-bottom {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
 .main-container {
   width: 60%;
 }
@@ -200,6 +229,11 @@ html {
   width: 50px;
   border-radius: 50%;
   margin-bottom: 2em;
+}
+@media screen and (max-width: 650px) {
+  .escrever-tweet {
+    display: none;
+  }
 }
 
 .tweetar .input-tweetar {

@@ -1,0 +1,23 @@
+.menu-bottom {
+    display: none;
+
+    @media screen and (max-width: 650px) {
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 10px;
+        border-top: 1px solid grey;
+        margin-top: 3em;
+    }
+
+}
+
+.menu-list-bottom {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}

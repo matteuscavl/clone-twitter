@@ -2,6 +2,7 @@
 @import './variables.scss';
 @import './geral.scss';
 @import './menu-lateral-right.scss';
+@import './menu-bottom.scss';
 
 .main-container {
     width: 60%;
@@ -36,6 +37,10 @@
         width: 50px;
         border-radius: 50%;
         margin-bottom: 2em;
+    }
+
+    @media screen and (max-width: 650px) {
+        display: none;
     }
 
 }

@@ -10,6 +10,10 @@
         transition: all .4s;
         width: 10%;
     }
+
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
 }
 
 .navigation {
@@ -72,8 +76,8 @@
     }
 
     @media screen and (max-width: 1279px) {
-        padding-left: 10px;
-        padding-top: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
 
         .mobile-span {
             display: none;
