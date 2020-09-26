@@ -1,6 +1,7 @@
 ### 📷 Um pouco de como ele ficou:
-<img src="image/print-screen-pc.jpeg" align="left">
-<img src="image/Print-screen-mobile.jpg" align="left">
+<img src="image/print-screen-pc.jpeg" align="left" min-width="400px" max-width="400px" width="400px">
+<img src="image/Print-screen-mobile.jpg" min-width="400px" max-width="400px" width="400px">
+<br>
 <hr>
 
 ### 🚀 Tecnologias: 
